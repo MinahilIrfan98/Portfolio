@@ -1,0 +1,49 @@
+/* About Page Styles */
+.about-page {
+    padding: 4rem 0;
+    background: #fffafc;
+    text-align: center;
+  }
+  
+  .team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+  
+  .team-card {
+    background: #fff0f6;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 220px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .team-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 0.8rem;
+  }
+  
+  .team-card h4 {
+    color: #d63384;
+    margin-bottom: 0.3rem;
+  }
+  
+  .about-description {
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .about-description h3 {
+    color: #d63384;
+    margin-bottom: 1rem;
+  }
+  
