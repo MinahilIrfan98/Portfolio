@@ -46,6 +46,18 @@ body {
   nav a:hover {
     color: #d63384;
   }
+  .logo-button {
+    width: 60px;
+    padding: 6px;
+    display: flex;
+  }
+  
+  .logo-button img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
   
  /* Hero Section */
 .hero {
@@ -294,6 +306,7 @@ body {
   .portfolio-grid img:hover {
     transform: scale(1.05);
   }
+  
   /* Contact Section */
 .contact-section {
   padding: 4rem 2rem;
