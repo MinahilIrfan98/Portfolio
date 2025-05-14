@@ -1,0 +1,148 @@
+/* Contact Section */
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: #fff;
+  color: #444;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: #f8cdda;
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+header .logo {
+  height: 50px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d63384;
+}
+
+.logo-button {
+  width: 60px;
+  padding: 6px;
+  display: flex;
+}
+
+.logo-button img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 4rem 2rem;
+  background: #fffafc;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #d63384;
+  margin-bottom: 0.5rem;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  color: #555;
+}
+
+.contactForm {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  background: #ffffff;
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #d63384;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 2px solid #fbc2eb;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  color: #333;
+  background-color: #fff;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #d63384;
+}
+
+/* Button */
+.btn.btn-primary {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block;        /* make the button block-level */
+  margin: 0 auto;        /* center it horizontally */
+  width: fit-content;    /* width adjusts to content */
+}
+
+.btn.btn-primary:hover {
+  background-color: #c2185b;
+}
+
+/* Footer */
+footer {
+  background: #f8cdda;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
